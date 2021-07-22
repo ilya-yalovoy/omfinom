@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/2.5c7124e6.chunk.css">
+    <link rel="stylesheet" href="./static/css/main.55b2568b.chunk.css">
+</head>
+<body class="overflow-y-auto overflow-x-hidden">
+    <noscript>Включите JavaScript для работы приложения.</noscript>
+    <div id="root" class="flex flex-column min-h-full">
+      <div class="cmp-modal flex items-start py-10 justify-center overflow-y-auto">
+        <div class="backdrop"></div>
+        <div class="cmp-card _border _sm mb-0" style="max-width: 500px;">
+          <div class="card-body">
+            <div></div>
+            <div class="row mt-8">
+              <div class="col-auto">
+                <button class="btn btn-primary btn-wide">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page-header" class="d-flex justify-between">
+        <div id="logo" class="d-flex ai-center">
+          <div class="menu cursor-pointer d-flex d-xl-none ai-center mr-2"><span></span></div>
+          <a id="logo" class="d-flex ai-center jc-center" href="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAgCAMAAABemGpIAAAAllBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AJcWoAAAAMXRSTlMA+ulY8pMyBdbImCESgnFkU1FDHS4NCN2LiH93Z/Xt4ryoTknDXDwDoqCQtGwlB7WNWpNsSwAAAW9JREFUOMuVVGl3gjAQXCByyFFAFBAP6lGt9pr//+e670nd5LXk1fkCQ4Zk9siSjpmXZd6M/oFFPokAOIdJsSA7ktTFHds0IQ1VbGo9ltaN58ex76UHYHOUtQzrXNdOgEg+TMG4DCR4BqMRLfOlsCtwXAHnmzZi1gFTbd9CtGc4JVEx7H2F8olWQDv4BXaifQJeiLED2FgHpyIGq/fEmK91D4mDt9vbEorm7OEnjs0HP1KERqgRDQiRZ+gHcnKRcS0U9qKdO2xiwB5KoRJ77okKbEl3HAqpgf5OAoWSzbSkJ7ET0gIrYa9oKNJTwT5LIQXg64f25KIyLL8L8+EkwkrUtIbWk7GxXGET6L+6NrEPtTDENhsx72zYsAUYICQjQFvqqO7JSJ2lKLz+RUZRxsvNmHHsernHGkkgjTTaogJp0fHmF0jzj1yr39r27wv7CXSGNLgAU8soCDuRtlugsQ0ZLEU8hcofG1+PD8aHRu43dzQ01+ywKgUAAAAASUVORK5CYII=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAA+CAMAAACY5ixBAAAAq1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Nr6iZAAAAOHRSTlMAu+kIqfwt5rURDfh8YlUj1UwdGMyVj4pIRd2gPCgV4c539MhdMvHtN4PEv2hS2a9rWT8F45plbmE/Y8cAAANeSURBVFjDzVjpdrJADB0UV0DcCoi4L3Vrq7UL7/9kn8ngAZxEj1M957t/lIkJ8c5NZhEs6lFj7jjzxqooHoh2MOnPwkqhUAk3/UnQfkzUwcR4jXMoGJPBn8MGphUTsMzen8K2ttlopVL2adtg3Yp24zq1/XOQkeHvWtFiEbX2nvF1HjVd2q83i+PvDh/XSaiteL1hdnwY2GNpme4oP196Hbi4L9K5u6+pNjNO8KKYOsbZ5pNhh9L+Nad0Mk6Zrl68NqqkNvOo+ta6MqEORX2INnuNH5t61rZC+iy7L99aVOI2YXzpCAJuAWxhIISzRK4ykaMpjMzKQsi3GpfOBtKwIKWE72y6mF8F80r5xWcD33SwkA1i3sZDQaEqfZNIyLaXmI74ZOZYWWd95ygXuiNMMN96npdGkk8+/0+sp15mcizgl+4GZSyXzJQOgNUpDgTIb2a+GthYanmRMjW5AdsqO3KAkT6QPwI95IpxnSVK9ODpm477gzrLj6GyPpMoF+U2g7Fy8tAFgutkXEyqeylNoHkjaksgmGLuI02YI8IBWwTfFDLabwoRAD9N+QNmnY6Lf2arDjch1xlQrXaG6bmhuKARh477ifJhmFcTRnigsFqi00KR73djaqEFlpFMFQMwzBM9+XTc4/vJ9ktZPBm4RdkM+cb2ErVDYgGrU5lcMuKkFAjsoKLqosVrTexSrVGKi6t0rZawpGz8AUMxXzgGFg6t/RDV0EeKee89bfIlxWw79NH5h5m7Ju+8Y+mXM2ui1gNBovPKO7+xcycSdkOsWRLuqYimLmnCOX9n1D+HZipO02sxWS1Kp6yGTMYYmLd1nxb4aVToTt6qhIH5ydOV28DCfsrLTbdA6iNsxnyB6Ja0MLCi+ZLWaUIIT7LEN6GOTttETU3bQvBtM2303J/6pW1tXFrYRq+3NCFGJqOXGCjWW0wR+zf8YBZTjeX/Bjq4/GtsWBSwG5bbW6zx1Uj8FksEd2wKVVCbQo1tLAF1G6ux8SahbLx1jgo80qOCxuHmOqL0cJNie/s4dpMHeRy74wA5OB8gr8KWB8jjPUded4Q2v8aHXVRl3KLWIT08cHVsW8khXfda4X0tiJTMV2n19C9CYjJwVXodnnV186zLJv3rsf/1Qu9BV5BPuzT9B5qW+pH1QUwtAAAAAElFTkSuQmCC 2x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAABcCAMAAACY9+3XAAAAq1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Nr6iZAAAAOHRSTlMA6OzBaBMK+OXFvV9ZF3Px0YpQ3KN7bDknIPRENMswDaeFLAK6rZRiPxsF4NedD0o7q7OYkYB3VXI0tcgAAAUSSURBVGjezJfZeqJAEIULBERcg6JxRcFd45Zl+v2fbJyPrhaBpmoukpn/Lhr6qz516hQCj+bAb2ysO5uGP2nCP8CJ6kHPq0w7d6aV5VvQiBz4SeLL580UOcxbMIAfYrzuCi3d9Ra+HbvVEQSdlg3fSXPRFgzMxffZ1MESaNprZhljbwF/Q90VTxj3kaj728tl6/8ZFDOjRh9odj0hxNEHLsObSOHOrVkIT4Sz/tUQKSoREGyksnObKcNIKKpzXxMJof9+SP2fVd7d60PUMzB4Tw1hsIMSPJHiA/S8HkWKT3ouKwI5bPZQQiRPRrwQNJyltMgqJuzwkDhwyr1eFRmOGtkskWV6ghImajBvr1CKL5D1XE1J4TPBo2NHVW/JVM/U7VpQzi+VEg2AlvqjoIpPla4TcHpq5GxtL1AHd0DljpDUhnDnYqD1cx1RBfZiuNNXWmiafXJx6qlZjoRkjnau4Tw5GsW+sPwR+gIKwYNWQBDixV9AscILPPdXSOqPcT08LpDnTX1JUSsa+GtBXjiY7w14YHeVODkaXB3g5VkHBLPeB8VS1ZDGRiEnuc2NTgOKAToNMkyTz0cYAsqF/WyAVqWNIUNFfu4AhaGrNpTiL3FvYpBAlq1IeC9uxozbDPMEOSbPDanotW0VNWTfRuEohiJhC/qzzXSmVm3Ig27pQIoFzhcFPr0unZsA7rhoyiLCUe5bWyTsuK50y3WqOgAWGqSYeu6gD7wABfZ5DBoWmCCxdKl2U00zKRZWcWIoIrJtZjKmcMYsIY46ZPy0AZIemlqLJc+6JsXoJx6D/gwJB2wPxalK+9cQKRakqmiaC75CkPRxPEv4EgiOpw4v7Zp18kAIzM11hDLsRC3GLhynsik2cBVQ7FiSXYViy1kAtVQ3xkBisdLkLJADbwM01UugGQPJldqzuAIkH3TyYWp63G7sE/m+GLUyxTVwlzptbkjMMCTorqHVWeVO1f59BQKMe3PPLFZUmCPftuXRLh5N+mhJt81Ukc0zxUCuHA9oVug25parA0VzJJ3Zy70flO89Cyjwvf0CJB0pmcfN7NjFhUMRJL4cAoknx6OD0jG1m3FXjOFwk+cNutz7DdljtEl+EQLX6x4Y3NCO2CJb7CL6MoNRZOY8GSfG0ewiWkmg/B9F/K7WDHQSBoIgekWqFduEggELVcHSBDGAJobc/3+ZMdm0JprOMGm1vg9orte92+3M9OJzdFCYN+cWZhdHdGkDGH1Eu7isnqw50pdVF9f2nU0o/LW9Br1RaGCXkY37iOcra2BiK8dT+czRrVwdanAbzR091CjjHWRoqhFiZRUsDrp4uRcOE9gJrUd+tjKvuaendEnE6s8P3uctW+k+0X4DITG1swPbWe2HGHLwpYMc7Z1UaQByb0+jpQFeJAlpkS8Lycvdb86Wi1bVVcFCy0UHWjh7YAVw+lEvuoR4dDRYQtTFVAEgprqUrrhRJSvTYFlZF9gx+F3GotXwXlkNMrXVMBdNlyKQT8h300W2n14r+4kH20+6EaeRVEZcq5YkBliSijk70PeiNmff2rapebbApnbZQjTseYYNhr2RS9EFnse9N6KEC3HAVRi39GZMIm9Ms7bjLIvTjqrIEsRZpGDPtE7TxAVcwp4N9ugRpyDdNS5hwxhjetjLWBeNixjXy520FXvLZ2XgvzASYm9yAHC+/DEAOOQDgP8tCtmPUOgn4enP47E9CQr3JTLdk/D4r8ToPwBVn0ahOPmi8QAAAABJRU5ErkJggg== 3x" alt="Logo" class="d-none d-xl-block"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAnFBMVEUAAAAEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUHWVeSAAAAM3RSTlMAClKBTvXJRu53VgXPmJWKh0kc++jl4WAlGvjcw556PDYWupJyWkEtHunXpmkqsH18ZS+LSVpPAAABpElEQVQ4y+2U6XKqQBCFh1V2FVBcENdoFpPcm+/93y0SQk1DKpQPkPOHOdWHU73MtPrDb9ifr9fz8i6pfSw98MokMNQwjGoOLWaTvYwtFj3XOazH5sdjerGrA3iFjhVkD1I7AdeUDOKWxQBHrU3A0mwDRQBvDXuDoIAX4WRq7RGmSm1XbJo/V9tblpA00WlHG3xpb2oo6nzZfWuC+ht6TERXHPzmdCULw4z/Datw6oaeeFYa70TtsSQIKFsWYX0Z28LY49yed+Q5u5aNausRT8LYZK5JBJFmc0w1ZizEseyhD5VmFok6YAqxy0iTLWw1m+KqNTshznnV5BGWml2YqScWor6VDC9hL391hsRpXzyUhpGtwk4aQwWqfKY6BQ61TrmuIBaxGpF3hrIWbLNRnaH0x+1wFhWmSslx9y+SRaS6kBeptrb6V/Qn/Nr4BhuZSIBuiEyC70c7RrYv0WrRNhLxgN915IV+Jr5+sI23a8tV8HzSwVNU+wqY9ZKx7Euavtr+AWTNVrNkBIx/s3vXV43QPJYOZG78YKg7sLT9ykzVH+7CJ4wSNcUrF9wgAAAAAElFTkSuQmCC" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABYCAMAAABGS8AGAAAArlBMVEUAAAAEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUt+bBAAAAAOXRSTlMA4vrpVhEW9/TazdS0r2EFx8NuRRoI3plBNwzvuEo9LSGqk3MnJR3Qn395WjIqA72FZU/JpZZejokWTbU5AAAEJUlEQVRYw+2Y2bqaQAyAg4qCu7iLVNz33WPPvP+LlUS0gMm0teei/T7/C5UJZGayDsKbN2/e/KOYGy+TOXWz8JU06s6oODdc1yj022PPhy8h6+zTKoZbW07hb/nWdhVDbpj5O7XFiLJUQOSyqlFd1k9rjlRIq3Qo17uDwaazXl7m99HSBFimJaUWGkecDEUYn54ZHa90xuFGLAcYHIscUQaBgyLmZfNZ9tjKYpcU7RZ32QddC3LjuGPipBSxtJ8wQ/WnrM8F/W2zbU7UvD07dujLzsbmtGnQWdHXuQcJKqTXPbIuJb1GJoiZAjk2suYZuaXQBVjTr3lyYUMcTXeBY0/aJrS+PD1deezljNf5Bv6ekOYaxFjRvCgX/FY1Q020s+FdRrYvhvOY5ycPdmi9Uz4GyQ4zCOlRUIcmc2i9zbhdMhEjupizW+CY5XDORuRm9FaKbp6kcJ9m5GYXZbPH9XecSAhvMr4XHdmguj3+qqGaQWx7MUMNKFuBpUNmYxyyBrhSDMZlbRzrhBcX3KxQz2sYEMngrGI0A7TQwMmQt8PIIEvJhugmDUFscHTm42eX9XXnsfpWRbbw+Xm4j5a8YKQ9yzBq+hTzFlmKZULhw1RtFcJkVBnHJ+GPnAksSwzhHSPABOQ3AxVsa6swedogu+7AVmBFsNX58xaNzRYZm6WBVvrGCDBCKU0kh7sN8nBasISHibVjRVUqRqyoghFXhzUtnGccyC686LvcMci4Y+pHI+Bph24Awfdr2eVtWJAPePryw3VU/E2etAhFilSWSl5+eJsKgnQqT5qHGlmapWlT8WLxrcD1WbkOFOAsr6pnBKuSjihBmbZmrIjqautVxRNU7GsUv2yKHGaBzhT915xnBhXB6Omcpw83edJC8PBOE266BKFJV/KkRdAlyFWT0isxpem08R10Kd19rQjBEduZXIQ8jKkXyib1vYEcFFbjlUJPNK200Cc/wz59xAl0rQl47AJ+Cq1p+YtmulVywGWEcTrGbO9BZVdkB1dBRuiz/UcFVFfJEXzGy3iRI85QE3FV5oilg45Y1WjLHUp5z2WmzEdsiyMlG6P0R8bw4gdX01Jio/FTsYO3nga93PvJVwWfDyuUtRq/pdd46t1LHClkxUOAqjHO5V/b2owp0wMxsZXtwy+YthQT9c0+aeYKVvhyZ5xAS8agXT812B1pViNuy708yQ6aeO4dFDJnbmkOSWSUuTXfZrUz4nJthdQawkGPyF974t8K8xVXz5aFm7QtzptWhHGoN2OCb06RBHw72t1WZB1BJPuhQgrD5bWz2W43nfXqkr+PFgdCeQ3mvUxBR2cf/bMpl0tFLvNrEDmSTK96YSmGXCkDf8tsnPxDz6p+TuBLmNXHH3s7ncu5rdpidZrCVzL1yo5zPA2a8ObNmzf/HT8AxOX+5sdpuQQAAAAASUVORK5CYII= 2x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAMAAABmmnOVAAAAsVBMVEUAAAAEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQUEBQWlaxjpAAAAOnRSTlMA9fsHgB3n1/Gr45QkGNxfQAPszr+5s4ZWLQrg0sqNe1E5KRPFnQ+wa2VFoZh4c6U1MSFvPVpMSg3ZbtYIvwAABgFJREFUeNrtmut2mkAQgAdQBA0oaryA9/stGjXRdN//wXpO2V1QYGdsa9offH96cjqQ2bnvEMjJycnJycnJycn5R3jOZHy9jK61btGHf8LL5Vyxmw03CNzebLl76xy/WZHxfllmCaxme/MF38PLm8sysXZjeDpetckQesMiPJOvtzIjoO9e4GmsTUZl4AAJZzcw4AE2DXaD2xqcO5v34/FYG63adk9jcbQ9EHjTGCtXgYqxvYm/Vifh+GmtEsRl+hM0xPmxmkSz1dzYIbeXrEz8GMbjdo+YQZdv/CSZLRb85ykoGLAYtqcwbSsuuQOUgxQ2V2qnLdkNjUxDT3u3ks0FKPH7MvfavtrJQaJ4fWS4t34vWVamtedKbZEqdNJkhkb+S9ViwwTDnQyMk8LCMjMLoKYoT7cGuMof3lPiV3p3A3BmnHqmLRY/hLlqmA6ilJUmvx58zbTFO+O0fmXZsSdskZXUwg4NHysk4uivIiUqjFO801Z4bQ4coa+VXj234s2AMZNvlgyFEW/e7Qtt98lf04cUVmQdKmkJf44eT2q7TjtsJSXlRFrgFZVLLtNL1zqmWHqY2yxkk3CzKYyEMeVutrMKqAz8SdaRl7wUndIDQvOpAfEDErR4WACnJLRNEKSe+ChTDOMzSoNUa0bWb4c/BZDt+w5IIqXbgOFp8vEkXRbi/KqpkXeSVLnhPYi4CKVRhjx8lXlziDm+rXTqMOmjEz556mFIZbX4sjx9VwRIOr4WviiKwRHVGVAIJauQwVHGYiuWhgqHFO4iQjMApZ6VGXdVGYB3DABQGk0Ts0VHlFaUNXI8gCKvWFxSMZmNbk3RJBsizEEXADOFHrp8ib/MvFF+ACg1JCJ4747oAkfRrGrxybYIKNvQZKCkxCQ9UGHovBVHKdsAaljOydP6GZTYkT+c8IERoIxJpd1hkinJu2OZGxpQi4QFCHLAnwFCIKtm5SaO8cCvkG9PQ9p09ConyxWgeBaPZoTi3eyNlQrLA1+jPBD1SH0BCKKB1A0AUvhM4EiuVJ+kLIrGty2guHws6PAZh9rFD+Qu9wYoLR47e+qrYc5rPUr1Zu7B7/U7/m+bnBxVSnWnhtmZt9oDr2044YX9SotgfESK+vcMWtTzQUnUN1qOaki9jG7sJWhSizYEvDGinMhKjG+UuACKZ/KkRhADvc7bMt73y/+TEg+7A1dCc8jueEpg6nyEpQbmM1L0S+Otg5yilb9frKAcng9nxYvVw2WbarMm0Ms2vYEVqL0RbKrgMmxgPEusv9nKoc1NRm3lYqg50ocagrrErHfk7aTBN00oRqjuB1HdF0C5CC/w9LDJ6TGgXVAC4OCDrnS1RR/5aQF3IIdEgX75idbUY9KwsiYPPx9RJeyTr4E70kThUAfiejTAkp46kP3BNHKgbxWrAcWni09CyFVoNTvauMzkOg/3B7EreAYQ70jm7X50RVa+Bn+B6922ziWbwsJMQSe4W0Z2GLVBtpF7DZ1qYm1Zpm6MFsgylYxhhS/6SqzzXLIpXuEPaaYY3yWuNcDQKQWW+q1AM9IWf2OqL3UH/oATC6mm7hQsPEN66HoQx01/h18nLrvA4Q45wG9jZ30KmZA/Bl65pP2nOlwhwZ6FtAhjt6Lb4Oyir6pJbLIWjewvm0A+QkO9lZ556BXr9z2yZCHaF6QyDbiAi2XqS51L9l7gISZ9FqIfM0/IbYFv3k6WeFkVHmDNONZE0RrKQmrpIEfSheSO3Eemc8bRu8oG1RByWsFQa2HS/swqYm8xjjlB95tSVG3pRVNKlkaA0nGleGNKuF1I+qsFcncR9NR289u9SHYOBDZlJrHmGx/SGb+9soi5WokDF6NHsm+zGPX5xUm44qPtxmV6aPftlrhxT0Dl2mNx9NJysBrVjt1ud3xZFw4N7fa/h0BgqDNmruERVhqjsisCieK24sNjOAWTUdge4ZkY6xlDKBVO8HQmgzLLRLNr8D14tWHLTFFg1r5O4TvxuqN9ZTkrBaYZuP3WvPD5voB/gHEaX6qr/X61HtUmC8jJycnJycnJycn5z/kJ4UBRJkp/uIYAAAAASUVORK5CYII= 3x" alt="Logo" class="d-block d-xl-none"><span class="d-none d-sm-block ml-4">OMFINOM</span></a>
+        </div>
+        <div class="content">
+          <div class="row jc-between h-full">
+            <div class="col">
+              <div class="d-flex jc-end h-full"><a class="ml-6 balance d-flex flex-column jc-center" href="/wallet"><span class="label">Баланс</span><span class="value f-700">0.00 ОМ</span></a>
+                <div class="ml-6 pos d-flex ai-center">
+                  <div class="profile nav-link cursor-pointer"><img src="/static/img/defaultAvatar.35af168d.svg" alt="" class="object-cover avatar image-circle"></div>
+                  <div class="dropdown-list pb-2">
+                    <div class="p-3">
+                      <div class="h7 c-muted">ID: 60694</div>
+                      <div class="h5 f-500"> </div>
+                    </div>
+                    <a class="d-flex ai-center link" href="./profile.html">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000" class="mr-2">
+                        <circle fill="none" cx="12" cy="7" r="3"></circle>
+                        <path d="M12 2C9.243 2 7 4.243 7 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zm0 8c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3zm9 11v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h2v-1c0-2.757 2.243-5 5-5h4c2.757 0 5 2.243 5 5v1h2z"></path>
+                      </svg>Профиль</a>
+                    <button class="d-flex ai-center link">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000" class="mr-2">
+                        <path d="M12 21c4.411 0 8-3.589 8-8 0-3.35-2.072-6.221-5-7.411v2.223A6 6 0 0118 13c0 3.309-2.691 6-6 6s-6-2.691-6-6a5.999 5.999 0 013-5.188V5.589C6.072 6.779 4 9.65 4 13c0 4.411 3.589 8 8 8z"></path>
+                        <path d="M11 2h2v10h-2z"></path>
+                      </svg>Выход</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="site-content" class="flex-1 d-flex flex-column jc-between">
+        <div id="side-menu" class="overflow-y-auto d-flex flex-column jc-between">
+          <ul class="nav my-3">
+            <li class="nav-item"><a class="nav-link" href="./index.html"><span class="shape1"></span><span class="shape2"></span><span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000"><path d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 00.707-1.707l-9-9a.999.999 0 00-1.414 0l-9 9A1 1 0 003 13zm7 7v-5h4v5h-4zm2-15.586l6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z"></path></svg></span><span class="nav-text">Главная</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="./index2.html"><span class="shape1"></span><span class="shape2"></span><span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000"><path d="M4 6h2v2H4zm0 5h2v2H4zm0 5h2v2H4zm16-8V6H8.023v2H18.8zM8 11h12v2H8zm0 5h12v2H8z"></path></svg></span><span class="nav-text">Продукты</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="./index3.html"><span class="shape1"></span><span class="shape2"></span><span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000"><path d="M16 12h2v4h-2z"></path><path d="M20 7V5c0-1.103-.897-2-2-2H5C3.346 3 2 4.346 2 6v12c0 2.201 1.794 3 3 3h15c1.103 0 2-.897 2-2V9c0-1.103-.897-2-2-2zM5 5h13v2H5a1.001 1.001 0 010-2zm15 14H5.012C4.55 18.988 4 18.805 4 18V8.815c.314.113.647.185 1 .185h15v10z"></path></svg></span><span class="nav-text">Кошелёк</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="./index4.html"><span class="shape1"></span><span class="shape2"></span><span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000"><path d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2zm-4 2v11H8V8h8zm-1-4v2H9V4h6zM4 8h2v11H4V8zm14 11V8h2l.001 11H18z"></path></svg></span><span class="nav-text">Мои инвестиции</span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="./index5.html"><span class="shape1"></span><span class="shape2"></span><span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000"><circle fill="none" cx="17.5" cy="18.5" r="1.5"></circle><circle fill="none" cx="5.5" cy="11.5" r="1.5"></circle><circle fill="none" cx="17.5" cy="5.5" r="1.5"></circle><path d="M5.5 15c.91 0 1.733-.358 2.357-.93l6.26 3.577A3.483 3.483 0 0014 18.5c0 1.93 1.57 3.5 3.5 3.5s3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5c-.91 0-1.733.358-2.357.93l-6.26-3.577c.063-.247.103-.502.108-.768l6.151-3.515c.625.572 1.448.93 2.358.93C19.43 9 21 7.43 21 5.5S19.43 2 17.5 2 14 3.57 14 5.5c0 .296.048.578.117.853L8.433 9.602A3.496 3.496 0 005.5 8C3.57 8 2 9.57 2 11.5S3.57 15 5.5 15zm12 2c.827 0 1.5.673 1.5 1.5s-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5.673-1.5 1.5-1.5zm0-13c.827 0 1.5.673 1.5 1.5S18.327 7 17.5 7 16 6.327 16 5.5 16.673 4 17.5 4zm-12 6c.827 0 1.5.673 1.5 1.5S6.327 13 5.5 13 4 12.327 4 11.5 4.673 10 5.5 10z"></path></svg></span><span class="nav-text">Структура</span></a></li>
+          </ul>
+          <div class="cmp-curator p-2 avatar-radius m-2">
+            <div class="row ai-center gx-3">
+              <div class="col-auto"><img alt="Горохов Артём  Николаевич" src="https://files.omfinom.com/images/user/41901/avatar.jpeg?b55e95156abf7a0331c4a381dcc24b70" class="avatar avatar-md avatar-radius object-cover"></div>
+              <div class="col c-wh h6">
+                <div class="text-xs c-muted mb-1 font-medium uppercase">Ваш куратор: ID 41901</div>
+                <div class="text-sm font-medium">Горохов Артём Николаевич</div>
+              </div>
+            </div>
+            <div class="line my-3"></div>
+            <div class="d-flex">
+              <div class="d-flex ai-center jc-center" style="width: 25%;">
+                <a href="https://vk.com/domennik" target="_blank" rel="noreferrer" class="soc-link _vk">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#fff">
+                    <path d="M21.579 6.855c.14-.465 0-.806-.662-.806h-2.193c-.558 0-.813.295-.953.619 0 0-1.115 2.719-2.695 4.482-.51.513-.743.675-1.021.675-.139 0-.341-.162-.341-.627V6.855c0-.558-.161-.806-.626-.806H9.642c-.348 0-.558.258-.558.504 0 .528.79.65.871 2.138v3.228c0 .707-.127.836-.407.836-.743 0-2.551-2.729-3.624-5.853-.209-.607-.42-.852-.98-.852H2.752c-.627 0-.752.295-.752.619 0 .582.743 3.462 3.461 7.271 1.812 2.601 4.363 4.011 6.687 4.011 1.393 0 1.565-.313 1.565-.853v-1.966c0-.626.133-.752.574-.752.324 0 .882.164 2.183 1.417 1.486 1.486 1.732 2.153 2.567 2.153h2.192c.626 0 .939-.313.759-.931-.197-.615-.907-1.51-1.849-2.569-.512-.604-1.277-1.254-1.51-1.579-.325-.419-.231-.604 0-.976.001.001 2.672-3.761 2.95-5.04z"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="d-flex ai-center jc-center" style="width: 25%;">
+                <a href="@esquire152rus" target="_blank" rel="noreferrer" class="soc-link _tg">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#fff">
+                    <path d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="d-flex ai-center jc-center" style="width: 25%;">
+                <a href="https://instagram.com/esquire152rus?utm_medium=copy_link" target="_blank" rel="noreferrer" class="soc-link _in">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#fff">
+                    <path d="M20.947 8.305a6.53 6.53 0 00-.419-2.216 4.61 4.61 0 00-2.633-2.633 6.606 6.606 0 00-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 00-2.185.42 4.607 4.607 0 00-2.633 2.633 6.554 6.554 0 00-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 002.634 2.632 6.584 6.584 0 002.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 002.186-.419 4.615 4.615 0 002.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 010 9.246zm4.807-8.339c-.597 0-1.078-.482-1.078-1.078a1.077 1.077 0 112.155 0c0 .596-.482 1.078-1.077 1.078z"></path>
+                    <circle cx="11.994" cy="11.979" r="3.003"></circle>
+                  </svg>
+                </a>
+              </div>
+              <div class="d-flex ai-center jc-center" style="width: 25%;">
+                <a href="tel:+79527647604" target="_blank" rel="noreferrer" class="soc-link _phone">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#fff">
+                    <path d="M20.487 17.14l-4.065-3.696a1.001 1.001 0 00-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 00.043-1.391L6.859 3.513a1 1 0 00-1.391-.087l-2.17 1.861a1 1 0 00-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 00.648-.291l1.86-2.171a.997.997 0 00-.085-1.39z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="site-inner-wrap" class="flex-fill d-flex flex-column">
+          <div id="page-tree">
+            <div class="cmp-page-header">
+              <div class="page-name h3 f-500 mb-1">Структура</div>
+              <ul class="cmp-breadcrumbs d-flex">
+                <li><a href="/">Главная</a></li>
+                <li>Структура</li>
+              </ul>
+            </div>
+            <div class="cmp-card _custom">
+              <div class="card-body">
+                <label class="form-field block mb-3">
+                  <div class="label block mb-1 cursor-pointer">Реферальная ссылка</div><span class="input-group"><input type="text" class="input" placeholder="" disabled="" value="https://omfinom.com/registration?ref=d4d95e7e367f831bcefc638f0063fee9476NqqnD4jLd2CKoMwu0MOABuIEOuVrB"><span class="input-group-append input-group-text cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22" width="22" fill="#000"><path d="M20 2H10c-1.103 0-2 .897-2 2v4H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2v-4h4c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM4 20V10h10l.002 10H4zm16-6h-4v-4c0-1.103-.897-2-2-2h-4V4h10v10z"></path></svg></span></span>
+                </label>
+              </div>
+            </div>
+            <div class="cmp-card _custom overflow-hidden">
+              <div class="card-body p-0 overflow-hidden cmp-binary-tree _touch" style="cursor: grab;">
+                <div class="open-full flex items-center justify-center absolute top-0 left-0 w-full h-full text-white text-lg">Открыть</div>
+                <div class="close-full px-3 py-2 justify-between font-medium text-lg"><span>Структура</span>
+                  <div class="cursor-pointer flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001" height="16" width="16" fill="#000">
+                      <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0014.143 5.857 19.94 19.94 0 0014.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="inner-wrap w-full h-full">
+                  <div class="react-transform-wrapper transform-component-module_wrapper__1_Fgj ">
+                    <div class="react-transform-component transform-component-module_content__2jYgh " style="transform: translate3d(30px, 30px, 0px) scale(0.8);">
+                      <div class="d-flex flex-column items-center">
+                        <div class="relative node-wrap">
+                          <div class="rounded-lg cmp-tree-node relative z-10 p-2 inline-block">
+                            <div class="row gx-4">
+                              <div class="col d-flex flex-column text-white">
+                                <div class="row gx-2 flex-nowrap">
+                                  <div class="col-auto"><img src="/static/media/defaultAvatar.35af168d.svg" class="w-9 h-9 rounded-md object-cover" alt=""></div>
+                                  <div class="col">
+                                    <div class="font-light text-xs c-muted">ID 60694 </div>
+                                    <div class="mt-1 leading-tight break-word break-all">ilyayalovoy2005@gmail.com</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="flex mt-6 px-2 relative child-main-wrap w-0 h-0 overflow-hidden"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="page-footer">
+          <div class="container-fluid ta-center">Copyright © 2021. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+    <script src="./static/js/script.js"></script>
+      <script src="./static/js/2.50a6938c.chunk.js"></script>
+      <script src="./static/js/main.03a49d5f.chunk.js"></script>
+  </body>
+</html>
